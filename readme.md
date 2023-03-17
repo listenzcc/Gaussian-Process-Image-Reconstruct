@@ -35,13 +35,13 @@ $$
 
 这个结果表明“这个世界比我预想的更讲道理”，也就是说，我既没有让模型学习照相机、船、建筑和车的所谓语义信息，也没有将这些像素点通过特定的拓扑结构连接起来。我所做的，仅仅是认为图像的像素服从多元正态分布，而该分布的协方差来源仅仅是像素之间的位置关系。但就是在这样的“简陋”条件下，还原的图像竟然看上去跟原图有些相似性，这表明图像本身具有十分有趣的分布规律，而高斯过程方法可以用于找到并利用这些规律。
 
-![Fly Polaroid.png](%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E6%AF%94%E6%88%91%E9%A2%84%E6%83%B3%E7%9A%84%E6%9B%B4%E8%AE%B2%E9%81%93%E7%90%86%20f23da4fb73da4d5a97708156afc10b38/Fly_Polaroid.png)
+![Fly Polaroid.png](doc/Fly_Polaroid.png)
 
-![The Fighting Temeraire.jpg](%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E6%AF%94%E6%88%91%E9%A2%84%E6%83%B3%E7%9A%84%E6%9B%B4%E8%AE%B2%E9%81%93%E7%90%86%20f23da4fb73da4d5a97708156afc10b38/The_Fighting_Temeraire.jpg)
+![The Fighting Temeraire.jpg](doc/The_Fighting_Temeraire.jpg)
 
-![DP164837.jpg](%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E6%AF%94%E6%88%91%E9%A2%84%E6%83%B3%E7%9A%84%E6%9B%B4%E8%AE%B2%E9%81%93%E7%90%86%20f23da4fb73da4d5a97708156afc10b38/DP164837.jpg)
+![DP164837.jpg](doc/DP164837.jpg)
 
-![cars-Honda-Japan-Roadster-s2000-tuning-1893887.jpg](%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E6%AF%94%E6%88%91%E9%A2%84%E6%83%B3%E7%9A%84%E6%9B%B4%E8%AE%B2%E9%81%93%E7%90%86%20f23da4fb73da4d5a97708156afc10b38/cars-Honda-Japan-Roadster-s2000-tuning-1893887.jpg)
+![cars-Honda-Japan-Roadster-s2000-tuning-1893887.jpg](doc/cars-Honda-Japan-Roadster-s2000-tuning-1893887.jpg)
 
 ## Matern 核的高斯过程
 
@@ -81,7 +81,7 @@ $$
 J_v(z)=\frac{1}{2\pi i}\oint e^{(z/2)(t-1/t)} t^{-v-1} dt
 $$
 
-![Untitled](%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E6%AF%94%E6%88%91%E9%A2%84%E6%83%B3%E7%9A%84%E6%9B%B4%E8%AE%B2%E9%81%93%E7%90%86%20f23da4fb73da4d5a97708156afc10b38/Untitled.png)
+![Untitled](doc/Untitled.png)
 
 另外，Bessel 函数所具有的一个数学意义是如下方程的解。
 
